@@ -1,8 +1,8 @@
 module SimpleModelTranslations
   module Attributes
-    def attributes=(attributes)
+    def assign_attributes(attributes, options = {})
       I18n.with_locale(attributes.delete(:locale) || translation_helper.current_locale_for_translation) do
-        super(attributes)
+        super(attributes, options)
       end
     end
 
