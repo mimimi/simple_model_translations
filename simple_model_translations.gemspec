@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = %w(LICENSE README.rdoc)
 
   s.required_rubygems_version = '>= 1.3.6'
-  s.add_runtime_dependency('activerecord', '~> 3.1.1')
+  s.add_runtime_dependency('activerecord', '~> 3.1')
   s.add_development_dependency('database_cleaner', '~> 0.5.2')
   s.add_development_dependency('sqlite3-ruby', '~> 1.3.1')
   s.add_development_dependency('shoulda', '~> 2.11.3')
